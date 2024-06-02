@@ -1,0 +1,75 @@
+* { 
+	padding: 0; 
+	margin: 0 auto; 
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: digital-7;
+    src: url(./Fonts/digital-7\ \(mono\).ttf);
+} 
+
+.container { 
+	display: flex; 
+	flex-direction: column; 
+	justify-content: center; 
+	align-items: center; 
+	width: 100%; 
+	height: 100vh; 
+	background-color: #1a1625; 
+    padding: 10px;
+} 
+
+h1 { 
+	color: #5e43f3; 
+	text-align: center; 
+    font-size: 80px;
+    padding-bottom: 25px;
+} 
+
+.digit { 
+    font-family: digital-7;
+	padding: 10px 0px;
+    font-size: 150px; 
+	color: #ba9ffb; 
+} 
+
+.txt { 
+	font-size: 30px; 
+	color: #a688fa; 
+} 
+
+#buttons { 
+	margin-top: 50px; 
+} 
+
+.btn { 
+	width: 100px; 
+	padding: 10px 10px; 
+	margin: 0px 15px; 
+	border-top-right-radius: 10px; 
+	border-bottom-left-radius: 10px; 
+	border-bottom-right-radius: 3px; 
+	border-top-left-radius: 3px; 
+	cursor: pointer; 
+	font-size: 22px;
+	transition: 0.5s; 
+	color: white; 
+	font-weight: 500; 
+} 
+
+#start { 
+	background-color: #4caf50; 
+} 
+
+#stop { 
+	background-color: #2196f3; 
+} 
+
+#reset { 
+	background-color: #eb0e0e; 
+}
+
+@media screen {
+    
+}
